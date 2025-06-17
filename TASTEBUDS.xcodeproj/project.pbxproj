@@ -6,6 +6,20 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		18F685072E01E21D006BCB1E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18F684FB2E01E21D006BCB1E /* AppDelegate.swift */; };
+		18F685082E01E21D006BCB1E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18F684FE2E01E21D006BCB1E /* SceneDelegate.swift */; };
+		18F6850A2E01E21D006BCB1E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18F684FD2E01E21D006BCB1E /* LaunchScreen.storyboard */; };
+		18F6850B2E01E21D006BCB1E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18F685012E01E21D006BCB1E /* Assets.xcassets */; };
+		18F685102E01E223006BCB1E /* TASTEBUDSTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18F6850E2E01E223006BCB1E /* TASTEBUDSTests.swift */; };
+		18F685142E01E227006BCB1E /* TASTEBUDSUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18F685112E01E227006BCB1E /* TASTEBUDSUITests.swift */; };
+		18F685152E01E227006BCB1E /* TASTEBUDSUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18F685122E01E227006BCB1E /* TASTEBUDSUITestsLaunchTests.swift */; };
+		18F6851B2E01E318006BCB1E /* RestaurantModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18F6851A2E01E2D2006BCB1E /* RestaurantModel.swift */; };
+		18F6851E2E01E455006BCB1E /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18F6851C2E01E455006BCB1E /* HomeViewController.swift */; };
+		18F6851F2E01E455006BCB1E /* HomeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 18F6851D2E01E455006BCB1E /* HomeViewController.xib */; };
+		18F685212E01E46D006BCB1E /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18F685202E01E468006BCB1E /* HomeViewModel.swift */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXContainerItemProxy section */
 		18F684DC2E01E139006BCB1E /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -27,38 +41,19 @@
 		18F684C52E01E137006BCB1E /* TASTEBUDS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TASTEBUDS.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		18F684DB2E01E139006BCB1E /* TASTEBUDSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TASTEBUDSTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		18F684E52E01E139006BCB1E /* TASTEBUDSUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TASTEBUDSUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		18F684FB2E01E21D006BCB1E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		18F684FC2E01E21D006BCB1E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		18F684FE2E01E21D006BCB1E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		18F685012E01E21D006BCB1E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		18F685022E01E21D006BCB1E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		18F6850E2E01E223006BCB1E /* TASTEBUDSTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TASTEBUDSTests.swift; sourceTree = "<group>"; };
+		18F685112E01E227006BCB1E /* TASTEBUDSUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TASTEBUDSUITests.swift; sourceTree = "<group>"; };
+		18F685122E01E227006BCB1E /* TASTEBUDSUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TASTEBUDSUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		18F6851A2E01E2D2006BCB1E /* RestaurantModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestaurantModel.swift; sourceTree = "<group>"; };
+		18F6851C2E01E455006BCB1E /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		18F6851D2E01E455006BCB1E /* HomeViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HomeViewController.xib; sourceTree = "<group>"; };
+		18F685202E01E468006BCB1E /* HomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
-
-/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
-		18F684ED2E01E139006BCB1E /* Exceptions for "TASTEBUDS" folder in "TASTEBUDS" target */ = {
-			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
-			membershipExceptions = (
-				Info.plist,
-			);
-			target = 18F684C42E01E137006BCB1E /* TASTEBUDS */;
-		};
-/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
-
-/* Begin PBXFileSystemSynchronizedRootGroup section */
-		18F684C72E01E137006BCB1E /* TASTEBUDS */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			exceptions = (
-				18F684ED2E01E139006BCB1E /* Exceptions for "TASTEBUDS" folder in "TASTEBUDS" target */,
-			);
-			path = TASTEBUDS;
-			sourceTree = "<group>";
-		};
-		18F684DE2E01E139006BCB1E /* TASTEBUDSTests */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = TASTEBUDSTests;
-			sourceTree = "<group>";
-		};
-		18F684E82E01E139006BCB1E /* TASTEBUDSUITests */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = TASTEBUDSUITests;
-			sourceTree = "<group>";
-		};
-/* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		18F684C22E01E137006BCB1E /* Frameworks */ = {
@@ -88,9 +83,9 @@
 		18F684BC2E01E137006BCB1E = {
 			isa = PBXGroup;
 			children = (
-				18F684C72E01E137006BCB1E /* TASTEBUDS */,
-				18F684DE2E01E139006BCB1E /* TASTEBUDSTests */,
-				18F684E82E01E139006BCB1E /* TASTEBUDSUITests */,
+				18F685062E01E21D006BCB1E /* TASTEBUDS */,
+				18F6850F2E01E223006BCB1E /* TASTEBUDSTests */,
+				18F685132E01E227006BCB1E /* TASTEBUDSUITests */,
 				18F684C62E01E137006BCB1E /* Products */,
 			);
 			sourceTree = "<group>";
@@ -103,6 +98,95 @@
 				18F684E52E01E139006BCB1E /* TASTEBUDSUITests.xctest */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		18F684FF2E01E21D006BCB1E /* Application */ = {
+			isa = PBXGroup;
+			children = (
+				18F684FD2E01E21D006BCB1E /* LaunchScreen.storyboard */,
+				18F684FB2E01E21D006BCB1E /* AppDelegate.swift */,
+				18F684FE2E01E21D006BCB1E /* SceneDelegate.swift */,
+			);
+			path = Application;
+			sourceTree = "<group>";
+		};
+		18F685002E01E21D006BCB1E /* Modules */ = {
+			isa = PBXGroup;
+			children = (
+				18F685162E01E24E006BCB1E /* Home */,
+			);
+			path = Modules;
+			sourceTree = "<group>";
+		};
+		18F685062E01E21D006BCB1E /* TASTEBUDS */ = {
+			isa = PBXGroup;
+			children = (
+				18F684FF2E01E21D006BCB1E /* Application */,
+				18F685002E01E21D006BCB1E /* Modules */,
+				18F685012E01E21D006BCB1E /* Assets.xcassets */,
+				18F685022E01E21D006BCB1E /* Info.plist */,
+			);
+			path = TASTEBUDS;
+			sourceTree = "<group>";
+		};
+		18F6850F2E01E223006BCB1E /* TASTEBUDSTests */ = {
+			isa = PBXGroup;
+			children = (
+				18F6850E2E01E223006BCB1E /* TASTEBUDSTests.swift */,
+			);
+			path = TASTEBUDSTests;
+			sourceTree = "<group>";
+		};
+		18F685132E01E227006BCB1E /* TASTEBUDSUITests */ = {
+			isa = PBXGroup;
+			children = (
+				18F685112E01E227006BCB1E /* TASTEBUDSUITests.swift */,
+				18F685122E01E227006BCB1E /* TASTEBUDSUITestsLaunchTests.swift */,
+			);
+			path = TASTEBUDSUITests;
+			sourceTree = "<group>";
+		};
+		18F685162E01E24E006BCB1E /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				18F685172E01E27F006BCB1E /* Model */,
+				18F685192E01E28E006BCB1E /* View */,
+				18F685182E01E285006BCB1E /* ViewModel */,
+				18F685222E01E4C0006BCB1E /* WebServices */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		18F685172E01E27F006BCB1E /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				18F6851A2E01E2D2006BCB1E /* RestaurantModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		18F685182E01E285006BCB1E /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				18F685202E01E468006BCB1E /* HomeViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		18F685192E01E28E006BCB1E /* View */ = {
+			isa = PBXGroup;
+			children = (
+				18F6851C2E01E455006BCB1E /* HomeViewController.swift */,
+				18F6851D2E01E455006BCB1E /* HomeViewController.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		18F685222E01E4C0006BCB1E /* WebServices */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = WebServices;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -119,9 +203,6 @@
 			buildRules = (
 			);
 			dependencies = (
-			);
-			fileSystemSynchronizedGroups = (
-				18F684C72E01E137006BCB1E /* TASTEBUDS */,
 			);
 			name = TASTEBUDS;
 			packageProductDependencies = (
@@ -143,9 +224,6 @@
 			dependencies = (
 				18F684DD2E01E139006BCB1E /* PBXTargetDependency */,
 			);
-			fileSystemSynchronizedGroups = (
-				18F684DE2E01E139006BCB1E /* TASTEBUDSTests */,
-			);
 			name = TASTEBUDSTests;
 			packageProductDependencies = (
 			);
@@ -165,9 +243,6 @@
 			);
 			dependencies = (
 				18F684E72E01E139006BCB1E /* PBXTargetDependency */,
-			);
-			fileSystemSynchronizedGroups = (
-				18F684E82E01E139006BCB1E /* TASTEBUDSUITests */,
 			);
 			name = TASTEBUDSUITests;
 			packageProductDependencies = (
@@ -225,6 +300,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				18F6850A2E01E21D006BCB1E /* LaunchScreen.storyboard in Resources */,
+				18F6850B2E01E21D006BCB1E /* Assets.xcassets in Resources */,
+				18F6851F2E01E455006BCB1E /* HomeViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -249,6 +327,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				18F6851E2E01E455006BCB1E /* HomeViewController.swift in Sources */,
+				18F685212E01E46D006BCB1E /* HomeViewModel.swift in Sources */,
+				18F685072E01E21D006BCB1E /* AppDelegate.swift in Sources */,
+				18F685082E01E21D006BCB1E /* SceneDelegate.swift in Sources */,
+				18F6851B2E01E318006BCB1E /* RestaurantModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -256,6 +339,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				18F685102E01E223006BCB1E /* TASTEBUDSTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -263,6 +347,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				18F685142E01E227006BCB1E /* TASTEBUDSUITests.swift in Sources */,
+				18F685152E01E227006BCB1E /* TASTEBUDSUITestsLaunchTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -281,6 +367,17 @@
 		};
 /* End PBXTargetDependency section */
 
+/* Begin PBXVariantGroup section */
+		18F684FD2E01E21D006BCB1E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				18F684FC2E01E21D006BCB1E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
 /* Begin XCBuildConfiguration section */
 		18F684EF2E01E139006BCB1E /* Debug */ = {
 			isa = XCBuildConfiguration;
@@ -294,7 +391,7 @@
 				INFOPLIST_FILE = TASTEBUDS/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIMainStoryboardFile = "";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -322,7 +419,7 @@
 				INFOPLIST_FILE = TASTEBUDS/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIMainStoryboardFile = "";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (

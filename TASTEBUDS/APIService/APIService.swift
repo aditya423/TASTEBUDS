@@ -10,9 +10,6 @@ import Foundation
 let BASE_URL = "https://www.themealdb.com"
 
 typealias stringAnyDict = [String: Any]
-typealias stringStringDict = [String: String]
-let contentKey = "Content-Type"
-let contentValue = "application/x-www-form-urlencoded"
 
 enum APIServices {
     case getMeals

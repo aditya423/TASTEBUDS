@@ -7,4 +7,18 @@
 
 import Foundation
 
-class HomeViewModel {}
+class HomeViewModel {
+    
+    var meals: [Meals]?
+    
+    func getMealsFromService(completion: @escaping (RestaurantModel?, Error?) -> (Void)) {
+        MealService.getMeals() { response, error in
+            if response != nil {
+                self.meals = response?.meals
+                completion(response, nil)
+            } else {
+                completion(nil, error)
+            }
+        }
+    }
+}

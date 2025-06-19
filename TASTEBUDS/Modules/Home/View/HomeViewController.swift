@@ -11,5 +11,9 @@ class HomeViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        APIManager.sharedInstance.makeApiCall(serviceType: .getMeals) { response in
+            print(response)
+        }
     }
 }

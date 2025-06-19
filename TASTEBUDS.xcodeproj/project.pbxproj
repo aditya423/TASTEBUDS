@@ -18,6 +18,8 @@
 		18F6851E2E01E455006BCB1E /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18F6851C2E01E455006BCB1E /* HomeViewController.swift */; };
 		18F6851F2E01E455006BCB1E /* HomeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 18F6851D2E01E455006BCB1E /* HomeViewController.xib */; };
 		18F685212E01E46D006BCB1E /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18F685202E01E468006BCB1E /* HomeViewModel.swift */; };
+		18F6870C2E0469A2006BCB1E /* APIService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18F6870B2E04699F006BCB1E /* APIService.swift */; };
+		18F6870E2E046B2E006BCB1E /* APIManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18F6870D2E046B2B006BCB1E /* APIManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +55,8 @@
 		18F6851C2E01E455006BCB1E /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		18F6851D2E01E455006BCB1E /* HomeViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HomeViewController.xib; sourceTree = "<group>"; };
 		18F685202E01E468006BCB1E /* HomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewModel.swift; sourceTree = "<group>"; };
+		18F6870B2E04699F006BCB1E /* APIService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIService.swift; sourceTree = "<group>"; };
+		18F6870D2E046B2B006BCB1E /* APIManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -121,6 +125,7 @@
 		18F685062E01E21D006BCB1E /* TASTEBUDS */ = {
 			isa = PBXGroup;
 			children = (
+				18F6870A2E04692F006BCB1E /* APIService */,
 				18F684FF2E01E21D006BCB1E /* Application */,
 				18F685002E01E21D006BCB1E /* Modules */,
 				18F685012E01E21D006BCB1E /* Assets.xcassets */,
@@ -187,6 +192,15 @@
 			children = (
 			);
 			path = WebServices;
+			sourceTree = "<group>";
+		};
+		18F6870A2E04692F006BCB1E /* APIService */ = {
+			isa = PBXGroup;
+			children = (
+				18F6870D2E046B2B006BCB1E /* APIManager.swift */,
+				18F6870B2E04699F006BCB1E /* APIService.swift */,
+			);
+			path = APIService;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -331,7 +345,9 @@
 				18F685212E01E46D006BCB1E /* HomeViewModel.swift in Sources */,
 				18F685072E01E21D006BCB1E /* AppDelegate.swift in Sources */,
 				18F685082E01E21D006BCB1E /* SceneDelegate.swift in Sources */,
+				18F6870C2E0469A2006BCB1E /* APIService.swift in Sources */,
 				18F6851B2E01E318006BCB1E /* RestaurantModel.swift in Sources */,
+				18F6870E2E046B2E006BCB1E /* APIManager.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

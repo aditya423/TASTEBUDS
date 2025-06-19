@@ -32,6 +32,8 @@
 		18F6872E2E0485D1006BCB1E /* SDWebImageMapKit in Frameworks */ = {isa = PBXBuildFile; productRef = 18F6872D2E0485D1006BCB1E /* SDWebImageMapKit */; };
 		18F687302E0485DC006BCB1E /* SDWebImage in Frameworks */ = {isa = PBXBuildFile; productRef = 18F6872F2E0485DC006BCB1E /* SDWebImage */; };
 		18F687322E0485DC006BCB1E /* SDWebImageMapKit in Frameworks */ = {isa = PBXBuildFile; productRef = 18F687312E0485DC006BCB1E /* SDWebImageMapKit */; };
+		18F687742E048BA8006BCB1E /* Kingfisher in Frameworks */ = {isa = PBXBuildFile; productRef = 18F687732E048BA8006BCB1E /* Kingfisher */; };
+		18F687762E048BAF006BCB1E /* Kingfisher in Frameworks */ = {isa = PBXBuildFile; productRef = 18F687752E048BAF006BCB1E /* Kingfisher */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -82,6 +84,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				18F687742E048BA8006BCB1E /* Kingfisher in Frameworks */,
 				18F6872C2E0485D1006BCB1E /* SDWebImage in Frameworks */,
 				18F6872E2E0485D1006BCB1E /* SDWebImageMapKit in Frameworks */,
 				18F6871A2E047F25006BCB1E /* SwiftLoader in Frameworks */,
@@ -99,6 +102,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				18F687762E048BAF006BCB1E /* Kingfisher in Frameworks */,
 				18F687302E0485DC006BCB1E /* SDWebImage in Frameworks */,
 				18F687322E0485DC006BCB1E /* SDWebImageMapKit in Frameworks */,
 				18F6871C2E047F33006BCB1E /* SwiftLoader in Frameworks */,
@@ -277,6 +281,7 @@
 				18F687192E047F25006BCB1E /* SwiftLoader */,
 				18F6872B2E0485D1006BCB1E /* SDWebImage */,
 				18F6872D2E0485D1006BCB1E /* SDWebImageMapKit */,
+				18F687732E048BA8006BCB1E /* Kingfisher */,
 			);
 			productName = TASTEBUDS;
 			productReference = 18F684C52E01E137006BCB1E /* TASTEBUDS.app */;
@@ -320,6 +325,7 @@
 				18F6871B2E047F33006BCB1E /* SwiftLoader */,
 				18F6872F2E0485DC006BCB1E /* SDWebImage */,
 				18F687312E0485DC006BCB1E /* SDWebImageMapKit */,
+				18F687752E048BAF006BCB1E /* Kingfisher */,
 			);
 			productName = TASTEBUDSUITests;
 			productReference = 18F684E52E01E139006BCB1E /* TASTEBUDSUITests.xctest */;
@@ -360,6 +366,7 @@
 			packageReferences = (
 				18F687182E047F24006BCB1E /* XCRemoteSwiftPackageReference "SwiftLoader" */,
 				18F6872A2E0485D1006BCB1E /* XCRemoteSwiftPackageReference "SDWebImage" */,
+				18F687722E048BA8006BCB1E /* XCRemoteSwiftPackageReference "Kingfisher" */,
 			);
 			preferredProjectObjectVersion = 77;
 			productRefGroup = 18F684C62E01E137006BCB1E /* Products */;
@@ -776,6 +783,14 @@
 				minimumVersion = 5.21.1;
 			};
 		};
+		18F687722E048BA8006BCB1E /* XCRemoteSwiftPackageReference "Kingfisher" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/onevcat/Kingfisher";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 8.3.2;
+			};
+		};
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
@@ -808,6 +823,16 @@
 			isa = XCSwiftPackageProductDependency;
 			package = 18F6872A2E0485D1006BCB1E /* XCRemoteSwiftPackageReference "SDWebImage" */;
 			productName = SDWebImageMapKit;
+		};
+		18F687732E048BA8006BCB1E /* Kingfisher */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 18F687722E048BA8006BCB1E /* XCRemoteSwiftPackageReference "Kingfisher" */;
+			productName = Kingfisher;
+		};
+		18F687752E048BAF006BCB1E /* Kingfisher */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 18F687722E048BA8006BCB1E /* XCRemoteSwiftPackageReference "Kingfisher" */;
+			productName = Kingfisher;
 		};
 /* End XCSwiftPackageProductDependency section */
 	};

@@ -18,6 +18,7 @@ class HomeViewController: UIViewController {
     }
     
     private func setupUI() {
+        navigationController?.setNavigationBarHidden(true, animated: false)
         setupTableView()
         getMealsData()
     }

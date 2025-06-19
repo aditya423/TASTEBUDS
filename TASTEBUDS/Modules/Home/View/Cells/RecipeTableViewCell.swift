@@ -7,6 +7,7 @@
 
 import UIKit
 import SDWebImage
+import Kingfisher
 
 class RecipeTableViewCell: UITableViewCell {
 
@@ -25,8 +26,8 @@ class RecipeTableViewCell: UITableViewCell {
     }
     
     func setupCell(mealData: Meals?) {
-        if let imageURL = URL(string: mealData?.strMealThumb ?? "") {
-            self.mealImageView.sd_setImage(with: imageURL)
+        if let url = URL(string: mealData?.strMealThumb ?? "") {
+            mealImageView.kf.setImage(with: url, placeholder: UIImage(named: "placeholder"))
         }
         titleLbl.text = mealData?.strMeal
         descLbl.text = mealData?.strInstructions

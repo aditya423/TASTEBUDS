@@ -13,7 +13,8 @@ class APIManager: NSObject {
     private override init() {}
     
     func makeApiCall(serviceType: APIServices, completion: @escaping (Result<Any, Error>) -> (Void)) {
-        let session = URLSession.shared
+        let config = URLSessionConfiguration.ephemeral
+        let session = URLSession(configuration: config)
         let url = URL(string: serviceType.path)!
         var urlRequest = URLRequest(url: url)
         urlRequest.httpMethod = "GET"

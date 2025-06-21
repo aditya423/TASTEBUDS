@@ -15,4 +15,12 @@ enum ErrorDesc: String {
 
 enum FileNames: String {
     case recipeTableViewCell = "RecipeTableViewCell"
+    case ingredientsTableViewCell = "IngredientsTableViewCell"
+    case mealDetailsViewController = "MealDetailsViewController"
+}
+
+enum StringConstants: String {
+    case popularRecipes = "Popular Recipes"
+    case viewOnYoutube = "View on Youtube"
+    case invalidURL = "Invalid URL or cannot open"
 }

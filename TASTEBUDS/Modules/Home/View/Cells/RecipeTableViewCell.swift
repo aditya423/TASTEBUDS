@@ -10,18 +10,25 @@ import Kingfisher
 
 class RecipeTableViewCell: UITableViewCell {
 
+    @IBOutlet weak var parentView: UIView!
     @IBOutlet weak var mealImageView: UIImageView!
     @IBOutlet weak var titleLbl: UILabel!
     @IBOutlet weak var descLbl: UILabel!
     @IBOutlet weak var viewMoreBtn: UIButton!
-    @IBOutlet weak var ingredientsCollectionView: UICollectionView!
+    @IBOutlet weak var likeImgView: UIImageView!
+    weak var delegate: RecipeTableViewCellProtocol?
     
     override func awakeFromNib() {
         super.awakeFromNib()
+        setupUI()
     }
 
-    override func setSelected(_ selected: Bool, animated: Bool) {
-        super.setSelected(selected, animated: animated)
+    private func setupUI() {
+        mealImageView.layer.cornerRadius = 10
+        likeImgView.layer.cornerRadius = 7
+        parentView.layer.cornerRadius = 10
+        parentView.setShadow()
+        likeImgView.setShadow()
     }
     
     func setupCell(mealData: Meals?) {
@@ -32,5 +39,7 @@ class RecipeTableViewCell: UITableViewCell {
         descLbl.text = mealData?.strInstructions
     }
     
-    @IBAction func viewMoreBtnTapped(_ sender: UIButton) {}
+    @IBAction func viewMoreBtnTapped(_ sender: UIButton) {
+        delegate?.viewMoreAction(row: sender.tag)
+    }
 }

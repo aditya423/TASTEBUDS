@@ -14,6 +14,9 @@
 		18D6D8852E06843400EA2EB3 /* IngredientsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18D6D8832E06843400EA2EB3 /* IngredientsTableViewCell.swift */; };
 		18D6D8862E06843400EA2EB3 /* IngredientsTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 18D6D8842E06843400EA2EB3 /* IngredientsTableViewCell.xib */; };
 		18D6D8882E0685ED00EA2EB3 /* Protocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18D6D8872E0685EA00EA2EB3 /* Protocols.swift */; };
+		18D6D88E2E06C77600EA2EB3 /* APICallUnitTesting.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18D6D88D2E06C77400EA2EB3 /* APICallUnitTesting.swift */; };
+		18D6D88F2E06C7DA00EA2EB3 /* APIManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18F6870D2E046B2B006BCB1E /* APIManager.swift */; };
+		18D6D8902E06C87900EA2EB3 /* APIService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18F6870B2E04699F006BCB1E /* APIService.swift */; };
 		18F685072E01E21D006BCB1E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18F684FB2E01E21D006BCB1E /* AppDelegate.swift */; };
 		18F685082E01E21D006BCB1E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18F684FE2E01E21D006BCB1E /* SceneDelegate.swift */; };
 		18F6850A2E01E21D006BCB1E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18F684FD2E01E21D006BCB1E /* LaunchScreen.storyboard */; };
@@ -62,6 +65,7 @@
 		18D6D8832E06843400EA2EB3 /* IngredientsTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IngredientsTableViewCell.swift; sourceTree = "<group>"; };
 		18D6D8842E06843400EA2EB3 /* IngredientsTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = IngredientsTableViewCell.xib; sourceTree = "<group>"; };
 		18D6D8872E0685EA00EA2EB3 /* Protocols.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Protocols.swift; sourceTree = "<group>"; };
+		18D6D88D2E06C77400EA2EB3 /* APICallUnitTesting.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APICallUnitTesting.swift; sourceTree = "<group>"; };
 		18F684C52E01E137006BCB1E /* TASTEBUDS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TASTEBUDS.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		18F684DB2E01E139006BCB1E /* TASTEBUDSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TASTEBUDSTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		18F684E52E01E139006BCB1E /* TASTEBUDSUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TASTEBUDSUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -169,6 +173,7 @@
 			isa = PBXGroup;
 			children = (
 				18F6850E2E01E223006BCB1E /* TASTEBUDSTests.swift */,
+				18D6D88D2E06C77400EA2EB3 /* APICallUnitTesting.swift */,
 			);
 			path = TASTEBUDSTests;
 			sourceTree = "<group>";
@@ -431,6 +436,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				18D6D88F2E06C7DA00EA2EB3 /* APIManager.swift in Sources */,
+				18D6D88E2E06C77600EA2EB3 /* APICallUnitTesting.swift in Sources */,
+				18D6D8902E06C87900EA2EB3 /* APIService.swift in Sources */,
 				18F685102E01E223006BCB1E /* TASTEBUDSTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

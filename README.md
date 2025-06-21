@@ -1,5 +1,5 @@
 
-# Tastebud iOS Application
+# Tastebuds iOS Application
 
 <div style="display: flex; justify-content: center; gap: 10px;">
   <img src="https://github.com/user-attachments/assets/a431c745-bd66-47d8-80ad-85f9e650c9c0" alt="screenshot1" width="30%" height="50%" />
